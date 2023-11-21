@@ -1,0 +1,14 @@
+/* point needs absolute position so that we can just place it where we want */
+.point {
+  position: absolute;
+}
+
+/* point width and height manually set
+  REMEMBER: these numbers must match the javascript ones!
+  Alternatively you could set it all in javascript to avoid mistakes
+  You might want to add some padding so they are not right against the widnow
+*/
+.point img {
+  width: 100px;
+  height: 200px;
+}
